@@ -35,8 +35,8 @@ Repositório desenvolvido para as aulas de **Fundamentos React**, contendo os pr
 ## 🗂 Estrutura do Projeto
 
 - src/
-- components/ # Componentes criados em aula
-- App.jsx # Ponto de testes para os componentes
-- main.jsx # Ponto de entrada da aplicação
+- components/
+- App.jsx
+- main.jsx
 - public/
-- index.html # Template base
+- index.html
