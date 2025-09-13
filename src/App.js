@@ -1,15 +1,16 @@
-import UsuarioInfo from "./components/UsuarioInfo";
-import ListaNumeros from "./components/ListaNumeros";
-import Contador from "./components/Contador";
+import BotaoEvento from "./components/BotaoEvento";
+import CicloDeVida from "./components/CicloDeVida";
+import ContadorSeguro from "./components/ContadorSeguro";
+
 export default function App() {
   return (
     <main style={{ fontFamily: "sans-serif", padding: 16 }}>
-      <h1>Estado com Objetos e Arrays e useState Básico</h1>
-      <UsuarioInfo />
+      <h1>Atualizações Seguras de Estado</h1>
+      <BotaoEvento />
       <hr />
-      <ListaNumeros />
+      <ContadorSeguro />
       <hr />
-      <Contador />
+      <CicloDeVida />
     </main>
   );
 }
