@@ -1,16 +1,20 @@
-import BotaoEvento from "./components/BotaoEvento";
-import CicloDeVida from "./components/CicloDeVida";
-import ContadorSeguro from "./components/ContadorSeguro";
-
+import TextoDinamico from "./components/TextoDinamico";
+import MensagemLogin from "./components/MensagemLogin";
+import MensagemUsuario from "./components/MensagemUsuario";
+import ListaNomes from "./components/ListaNomes";
+import ListaComIds from "./components/ListaComIds";
 export default function App() {
   return (
     <main style={{ fontFamily: "sans-serif", padding: 16 }}>
-      <h1>Atualizações Seguras de Estado</h1>
-      <BotaoEvento />
+      <TextoDinamico />
       <hr />
-      <ContadorSeguro />
+      <MensagemLogin />
       <hr />
-      <CicloDeVida />
+      <MensagemUsuario ok={false} nome="Carlos" />
+      <hr />
+      <ListaNomes />
+      <hr />
+      <ListaComIds />
     </main>
   );
 }
